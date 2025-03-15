@@ -7,7 +7,7 @@ int main () {
 
 int age_utilisateur = 25, taille_utilisateur = 175;
 
-// Utilisation des spécificiteur de format pour indiquer le type de données à afficher
+// Utilisation des spécificateurs de format pour indiquer le type de données à afficher
 
 printf("Vous avez %d ans et vous mesurez %d \n", age_utilisateur, taille_utilisateur);
     
