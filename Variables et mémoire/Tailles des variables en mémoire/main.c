@@ -29,7 +29,7 @@ int main (){
    
     /*
     * Le type int unsigned ne peut contenir de signe moins (-) comparé à int qui est signed par défaut.
-    * Cela possède un influence sur les plages de valeurs possibles pour les variables.
+    * Cela possède une influence sur les plages de valeurs possibles pour les variables.
     * En effet, si la taille en octets (2 ou 4 octets) reste la même,
     * la plage des valeurs positives, elle, se retrouve doublée pour les entiers non signés.
     */        
