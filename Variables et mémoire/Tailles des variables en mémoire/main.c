@@ -31,7 +31,7 @@ int main (){
     * Le type int unsigned ne peut contenir de signe moins (-) comparé à int qui est signed par défaut.
     * Cela possède une influence sur les plages de valeurs possibles pour les variables.
     * En effet, si la taille en octets (2 ou 4 octets) reste la même,
-    * La plage des valeurs positives est doubléest a.
+    * La plage des valeurs positives est doublée.
     */        
 
     unsigned int mon_unsigned=12;
