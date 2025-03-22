@@ -32,7 +32,7 @@ int main (){
     * Cela possède un influence sur les plages de valeurs possibles pour les variables.
     * En effet, si la taille en octets (2 ou 4 octets) reste la même,
     * la plage des valeurs positives, elle, se retrouve doublée pour les entiers non signés.
-    */       
+    */        
 
     unsigned int mon_unsigned=12;
     printf("mon int = %d et prend en memoire %d octets\n",mon_unsigned,sizeof(int));
