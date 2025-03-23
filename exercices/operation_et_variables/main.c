@@ -4,11 +4,17 @@
 int main()
 {
     int points_vie = 10;
+    int degats = 5;
     printf("Points de vie = %d\n", points_vie);
    
    //Réaffectation de variable. 
 
-    points_vie = 5;
+    points_vie= 5;
+
+    // Expressions
+
+    points_vie = points_vie - degats;
+
     printf("Points de vie = %d\n", points_vie);
     
     // Addition
@@ -30,5 +36,6 @@ int main()
     // Modulo
 
     printf("5%%3 = %d\n",5%3);
+    
     return 0;
 }
